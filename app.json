@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "reastauranReview",
-    "slug": "reastauranReview",
+    "name": "ListView & SearchItem",
+    "slug": "listview-and-searchitem",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [
@@ -24,6 +24,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "ListView & SearchItem with Dummy Data",
+    "githubUrl": "https://github.com/uthrul/react-native_expoXDE_ListView-SearchItem"
   }
 }

@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, TextInput, FlatList } from "react-native";
 import Header from "./src/components/Header";
 import RestaurantRow from "./src/components/ReastauranRow";
 
+// Dummy data
 const restaurants = [
   { name: "React Cafe", address: "123 Anywhere St" },
   { name: "Rails Restaurant", address: "799 Main St" },
@@ -30,7 +31,14 @@ const restaurants = [
 export default class App extends React.Component {
   state = {
     search: null
+    //restaurants:[]
   };
+
+  // componentDidMount(){
+  //   fetch('https://localhost:3000/restaurants')
+  //   .then(response => response.json())
+  //   .then(result => this.setState({ restaurants: result }))
+  // }
 
   render() {
     return (
